@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net7.0-windows\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net7.0-windows\minesweeper.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net7.0-windows\minesweeper.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net7.0-windows\minesweeper.deps.json" />
+    <Content Include="bin\Debug\net7.0-windows\minesweeper.runtimeconfig.json" />
+    <Content Include="obj\Debug\net7.0-windows\minesweeper.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\minesweeper.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="controller\" />
+    <Folder Include="Resource\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net7.0-windows\minesweeper.dll" />
+    <None Include="bin\Debug\net7.0-windows\minesweeper.exe" />
+    <None Include="bin\Debug\net7.0-windows\minesweeper.pdb" />
+    <None Include="obj\Debug\net7.0-windows\apphost.exe" />
+    <None Include="obj\Debug\net7.0-windows\minesweeper.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net7.0-windows\minesweeper.assets.cache" />
+    <None Include="obj\Debug\net7.0-windows\minesweeper.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net7.0-windows\minesweeper.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net7.0-windows\minesweeper.dll" />
+    <None Include="obj\Debug\net7.0-windows\minesweeper.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net7.0-windows\minesweeper.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net7.0-windows\minesweeper.pdb" />
+    <None Include="obj\Debug\net7.0-windows\refint\minesweeper.dll" />
+    <None Include="obj\Debug\net7.0-windows\ref\minesweeper.dll" />
+    <None Include="obj\minesweeper.csproj.nuget.g.props" />
+    <None Include="obj\minesweeper.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+</Project>
